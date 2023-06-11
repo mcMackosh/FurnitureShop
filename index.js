@@ -9,7 +9,7 @@ const router = require('./routes/index')
 const errorHandling = require('./middlewares/ErrorHandlingMiddleWare')
 const path = require('path')
 const cookieParser = require('cookie-parser')
-const PORT = process.env.PORT
+// const PORT = process.env.PORT
 
 application.use(cors())
 application.use(express.json())
@@ -25,7 +25,7 @@ const start = async () =>
     try{
         await sequelize.authenticate()
         await sequelize.sync()
-        application.listen(PORT || 80, ()=>{console.log(`Server has been started ${PORT}`)})
+        application.listen(process.env.PORT || 80, ()=>{console.log(`Server has been started ${PORT}`)})
     }
     catch(e)
     {
