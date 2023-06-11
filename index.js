@@ -25,7 +25,7 @@ const start = async () =>
     try{
         await sequelize.authenticate()
         await sequelize.sync()
-        application.listen(process.env.PORT || 80, ()=>{console.log(`Server has been started ${PORT}`)})
+        application.listen(process.env.PORT || 443, ()=>{console.log(`Server has been started ${process.env.PORT}`)})
     }
     catch(e)
     {
