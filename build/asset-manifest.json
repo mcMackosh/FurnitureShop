@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.32f13027.css",
-    "main.js": "/static/js/main.35581b34.js",
+    "main.js": "/static/js/main.1f53733b.js",
     "static/media/star.png": "/static/media/star.a5eb8014b2d588ab6714.png",
     "static/media/whiteStar.png": "/static/media/whiteStar.70a3c5de4c104ef5ac0e.png",
     "static/media/TsetProduct.jpg": "/static/media/TsetProduct.87f017085877e2626012.jpg",
     "index.html": "/index.html",
     "main.32f13027.css.map": "/static/css/main.32f13027.css.map",
-    "main.35581b34.js.map": "/static/js/main.35581b34.js.map"
+    "main.1f53733b.js.map": "/static/js/main.1f53733b.js.map"
   },
   "entrypoints": [
     "static/css/main.32f13027.css",
-    "static/js/main.35581b34.js"
+    "static/js/main.1f53733b.js"
   ]
 }
